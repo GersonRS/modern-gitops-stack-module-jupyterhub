@@ -1,16 +1,12 @@
 terraform {
   required_providers {
     argocd = {
-      source  = "oboukili/argocd"
-      version = ">= 5"
+      source  = "argoproj-labs/argocd"
+      version = ">= 6"
     }
     utils = {
       source  = "cloudposse/utils"
       version = ">= 1"
-    }
-    random = {
-      source  = "hashicorp/random"
-      version = ">= 3"
     }
     null = {
       source  = "hashicorp/null"
