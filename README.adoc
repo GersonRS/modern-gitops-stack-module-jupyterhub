@@ -123,7 +123,7 @@ Description: Override of target revision of the application chart.
 
 Type: `string`
 
-Default: `"v1.1.1"`
+Default: `"v1.1.2"`
 
 ==== [[input_cluster_issuer]] <<input_cluster_issuer,cluster_issuer>>
 
@@ -334,7 +334,7 @@ Description: Jupyterhub endpoint external
 |[[input_target_revision]] <<input_target_revision,target_revision>>
 |Override of target revision of the application chart.
 |`string`
-|`"v1.1.1"`
+|`"v1.1.2"`
 |no
 
 |[[input_cluster_issuer]] <<input_cluster_issuer,cluster_issuer>>
