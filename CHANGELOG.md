@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.2](https://github.com/GersonRS/modern-gitops-stack-module-jupyterhub/compare/v1.1.1...v1.1.2) (2025-02-08)
+
+
+### ⌨️ Code Refactoring
+
+* adjust workflows ([1d996de](https://github.com/GersonRS/modern-gitops-stack-module-jupyterhub/commit/1d996de1484f7023d6302bf83217d0333528beb7))
+* try adjust code 5 ([d2480d6](https://github.com/GersonRS/modern-gitops-stack-module-jupyterhub/commit/d2480d62bd7bd177bd8339c22d67f65109ad8dd3))
+
 ## [1.1.1](https://github.com/GersonRS/modern-gitops-stack-module-jupyterhub/compare/v1.1.0...v1.1.1) (2025-02-08)
 
 
