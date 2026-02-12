@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/GersonRS/modern-gitops-stack-module-jupyterhub/compare/v1.1.2...v1.2.0) (2026-02-12)
+
+
+### 🚀 New Features
+
+* add custom JupyterHub templates and profile_options ([97039b6](https://github.com/GersonRS/modern-gitops-stack-module-jupyterhub/commit/97039b6ba64a205f8f977a4bbfd74ab9f4b460cb))
+* adjust workflow ([9b870c8](https://github.com/GersonRS/modern-gitops-stack-module-jupyterhub/commit/9b870c8bd1e4d3afa502cd175b27e274eb3ec73e))
+
 ## [1.1.2](https://github.com/GersonRS/modern-gitops-stack-module-jupyterhub/compare/v1.1.1...v1.1.2) (2025-02-08)
 
 
