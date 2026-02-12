@@ -76,7 +76,7 @@ locals {
             claim_groups_key   = "groups"
             allowed_groups     = ["user", "modern-gitops-stack-admins"]
             admin_groups       = ["modern-gitops-stack-admins"]
-            manage_groups      = ["modern-gitops-stack-admins"]
+            manage_groups      = true
           }
           JupyterHub = {
             admin_access        = true
