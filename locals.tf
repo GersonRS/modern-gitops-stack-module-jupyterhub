@@ -1,6 +1,5 @@
 locals {
-  domain      = format("jupyterhub.%s", trimprefix("${var.subdomain}.${var.base_domain}", "."))
-  domain_full = format("jupyterhub.%s.%s", trimprefix("${var.subdomain}.${var.cluster_name}", "."), var.base_domain)
+  domain = format("jupyterhub.%s", trimprefix("${var.subdomain}.${var.base_domain}", "."))
 
   helm_values = [{
     jupyterhub = {
@@ -66,7 +65,7 @@ locals {
             login_service      = "keycloak"
             client_id          = "${var.oidc.client_id}"
             client_secret      = "${var.oidc.client_secret}"
-            oauth_callback_url = "https://${local.domain_full}/hub/oauth_callback"
+            oauth_callback_url = "https://${local.domain}/hub/oauth_callback"
             authorize_url      = "${var.oidc.oauth_url}"
             token_url          = "${var.oidc.token_url}"
             userdata_url       = "${var.oidc.api_url}"
@@ -174,7 +173,7 @@ locals {
                     display_name = "PyTorch"
                     description  = "Deep Learning com PyTorch e Lightning"
                     kubespawner_override = {
-                      image = "quay.io/jupyter/pytorch-notebook:latest"
+                      image = "elyra/elyra:latest"
                     }
                   }
                   pyspark = {
@@ -199,14 +198,12 @@ locals {
         }
         ingressClassName = "traefik"
         hosts = [
-          local.domain,
-          local.domain_full
+          local.domain
         ]
         tls = [{
           secretName = "jupyterhub-ingres-tls"
           hosts = [
-            local.domain,
-            local.domain_full
+            local.domain
           ]
         }]
       }
