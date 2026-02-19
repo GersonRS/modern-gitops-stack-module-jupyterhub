@@ -159,7 +159,7 @@ locals {
                     description  = "NumPy, Pandas, Scikit-learn, Matplotlib"
                     default      = true
                     kubespawner_override = {
-                      image = "quay.io/jupyter/datascience-notebook:python-3.11"
+                      image = "elyra/elyra:latest"
                     }
                   }
                   tensorflow = {
@@ -173,7 +173,7 @@ locals {
                     display_name = "PyTorch"
                     description  = "Deep Learning com PyTorch e Lightning"
                     kubespawner_override = {
-                      image = "elyra/elyra:latest"
+                      image = "quay.io/jupyter/pytorch-notebook:latest"
                     }
                   }
                   pyspark = {
