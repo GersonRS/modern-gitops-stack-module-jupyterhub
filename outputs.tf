@@ -14,5 +14,5 @@ output "cluster_ip" {
 
 output "endpoint" {
   description = "Jupyterhub endpoint external"
-  value       = local.domain_full
+  value       = local.domain
 }
