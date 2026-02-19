@@ -159,7 +159,7 @@ locals {
                     description  = "NumPy, Pandas, Scikit-learn, Matplotlib"
                     default      = true
                     kubespawner_override = {
-                      image = "elyra/elyra:latest"
+                      image = "quay.io/jupyter/datascience-notebook:python-3.11"
                     }
                   }
                   tensorflow = {
