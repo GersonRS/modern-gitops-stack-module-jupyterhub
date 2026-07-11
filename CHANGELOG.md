@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.3.0](https://github.com/gersonrs/modern-gitops-stack-module-jupyterhub/compare/v1.2.0...v1.3.0) (2026-07-11)
+
+
+### 🚀 New Features
+
+* add namespace_labels variable to all modules ([f2a57cc](https://github.com/gersonrs/modern-gitops-stack-module-jupyterhub/commit/f2a57cc3f5a9d9d467777fb13d8ecb0aa60125d0))
+* test elyra ([62461e3](https://github.com/gersonrs/modern-gitops-stack-module-jupyterhub/commit/62461e3a13cb56f6a3bbad4f7e83fb64b6702ee4))
+
+
+### 🔥 Bug Fixes
+
+* adjust oauthentication ([c6eb382](https://github.com/gersonrs/modern-gitops-stack-module-jupyterhub/commit/c6eb3829da48cb091231ac6c99e541ab68192a7f))
+* adjust oauthentication ([5a3bf5d](https://github.com/gersonrs/modern-gitops-stack-module-jupyterhub/commit/5a3bf5d91dac139bcab4ac32279876a818263380))
+* adjust output ([05ae117](https://github.com/gersonrs/modern-gitops-stack-module-jupyterhub/commit/05ae117b61f64eaafe88935ddbf1857b8ba4b4cb))
+* adjust output ([32f83fc](https://github.com/gersonrs/modern-gitops-stack-module-jupyterhub/commit/32f83fc079a6d82d9aca7e1e7eb286056710e7c4))
+* adjust output ([40ee5f1](https://github.com/gersonrs/modern-gitops-stack-module-jupyterhub/commit/40ee5f177f5e8a31cbabf8a1ea3cb358d2b1a401))
+
 ## [1.2.0](https://github.com/GersonRS/modern-gitops-stack-module-jupyterhub/compare/v1.1.2...v1.2.0) (2026-02-12)
 
 
